@@ -5,6 +5,7 @@ import Section from "./components/Section"
 // import ContactUs from "./components/ContactUs"
 // import Footer from "./components/Footer"
 import AboutUs from "./components/AboutUs"
+import Dataset from "./components/Dataset"
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
@@ -29,6 +30,7 @@ function App() {
       <Hero />
       <Section />
       <AboutUs />
+      <Dataset />
       {/* <Testimonial />
       <ContactUs />
       <Footer /> */}
