@@ -52,7 +52,7 @@ const styles = (theme) => {
     sate: {
       position: 'absolute',
       maxwidth: '100%',
-      display:'block', 
+      display: 'block',
       height: 'auto',
       width: '192px',
       left: '1054px',
@@ -76,28 +76,46 @@ const styles = (theme) => {
       left: '837px',
       top: '784px',
     },
+
+
     gridContainer: {
       display: 'flex',
       alignItems: 'center',
       maxWidth: '1300px',
       padding: '50px',
     },
-    aboutUsContainer: {
-      backgroundColor: 'blue',
-      
-      display: 'flex',
-      alignItems: 'center',
+    aboutUsgridContainer: {
       maxWidth: '1300px',
       padding: '50px',
+
+    },
+    aboutUsContainer: {
+      alignItems: 'center',
+      justifyContent: 'center',
+      maxWidth: '1300px',
+      padding: '13px',
+    },
+    aboutUsBox: {
+      width: '100%',
+      minHeight: '600px',
     },
     aboutUsSubtitle: {
       opacity: '0.7',
       paddingBottom: '30px',
       fontSize: '18px',
     },
+    aboutBg: {
+      position: 'absolute',
+    },
     title: {
       paddingBottom: '15px',
       color: '#008444',
+    },
+    titlePilar: {
+      paddingBottom: '15px',
+      color: '#008444',
+      textAlign: 'center',
+
     },
     titleSection: {
       paddingBottom: '30px',
@@ -169,6 +187,64 @@ const styles = (theme) => {
       fontSize: '14px',
       opacity: '0.6',
     },
+
+    text1: {
+      position: 'absolute',
+      width: '289px',
+      height: '280px',
+      left: '84px',
+      top: '1382px',
+    },
+
+    ket1: {
+      display: 'flex',
+      flexDirection: 'row',
+      alignItems: 'center',
+      padding: '10px 100px 10px 10px',
+      gap: '10px',
+      background: '#FFFFFF',
+      borderRadius: '4px',
+    },
+
+    ket2: {
+      fontFamily: 'Lato',
+      fontStyle: 'normal',
+      fontWeight: '400',
+      fontSize: '16px',
+      lineHeight: '24px',
+    },
+    text2: {
+      position: 'absolute',
+      width: '289px',
+      height: '280px',
+      left: '915px',
+      top: '1382px',
+    },
+
+    keter1: {
+      display: 'flex',
+      flexDirection: 'row',
+      alignItems: 'center',
+      padding: '10px 100px 10px 10px',
+      gap: '10px',
+      background: '#FFFFFF',
+      borderRadius: '4px',
+    },
+
+    keter2: {
+      fontFamily: 'Lato',
+      fontStyle: 'normal',
+      fontWeight: '400',
+      fontSize: '16px',
+      lineHeight: '24px',
+    },
+    peta: {
+      position: 'absolute',
+      width: '391px',
+      height: '284px',
+      left: '492px',
+      top: '1402px',
+    }
   };
 };
 
