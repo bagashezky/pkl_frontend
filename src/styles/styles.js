@@ -285,6 +285,11 @@ const styles = (theme) => {
       left: '492px',
       top: '1402px',
     },
+    panahkanan: {
+      position: 'absolute',
+      left: '1036px',
+      top: '2134px',
+    },
     dataset: {
       position: 'absolute',
       width: '289px',
