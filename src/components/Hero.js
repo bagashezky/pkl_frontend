@@ -19,13 +19,6 @@ const Hero = () => {
             Mulai dari stok, harga, hingga distribusi semuanya ada disini!
             Dari data beras, bawang merah, hingga daging sapi  bisa kamu temukan hanya dengan satu kali klik!
           </Typography>
-          {/* <Button
-            variant="contained"
-            color="primary"
-            sx={{ width: '200px', fontSize: '16px' }}
-          >
-            HIRE US
-          </Button> */}
           <Box display='left' justifyContent='space-between' >
             <Box
             display='flex'
@@ -39,9 +32,11 @@ const Hero = () => {
             </Box>
           </Box>
         </Grid>
-        <Grid item xs={12} md={5}>
+        <div>
+          <span className={classes.sateBox}>
           <img src={sideakar} alt="My Team" className={classes.sate} />
-        </Grid>
+          </span>
+        </div>
       </Grid>
     </Box>
   );

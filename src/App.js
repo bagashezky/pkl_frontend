@@ -6,6 +6,7 @@ import Section from "./components/Section"
 // import Footer from "./components/Footer"
 import AboutUs from "./components/AboutUs"
 import Dataset from "./components/Dataset"
+import Info from "./components/Info"
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
@@ -16,8 +17,7 @@ import { createTheme, ThemeProvider} from '@mui/material/styles';
 const theme = createTheme({
   typography: {
     fontFamily: [
-      'Poppins',
-      'sans-serif',
+      'Lato',
     ].join(','),
   },});
 
@@ -31,6 +31,7 @@ function App() {
       <Section />
       <AboutUs />
       <Dataset />
+      <Info />
       {/* <Testimonial />
       <ContactUs />
       <Footer /> */}
