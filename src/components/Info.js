@@ -2,6 +2,7 @@ import { Box, Divider, Typography } from '@mui/material'
 import React from 'react'
 import useStyles from '../styles/styles';
 import panahkanan from '../images/panahkanan.png';
+import bro from '../images/bro.png';
 
     const Info = () => {
         const classes = useStyles();
@@ -19,6 +20,8 @@ import panahkanan from '../images/panahkanan.png';
         Cek Informasi Via Dashboard Disini
         </p>
         <img src={panahkanan} className={classes.Info5}>
+        </img>
+        <img src={bro} className={classes.Info6}>
         </img>
       </Box>
     </div>

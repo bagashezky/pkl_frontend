@@ -354,8 +354,15 @@ const styles = (theme) => {
     },
     Info5:{
       position: "relative",
-      top: "421px",
+      top: "179px",
       left: "631px",
+    },
+    Info6:{
+      position: "relative",
+      width: "372px",
+      height: "300px",
+      left: "856px",
+      top: "7px",
     }
   };
 };
