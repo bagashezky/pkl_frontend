@@ -2,7 +2,7 @@ import Hero from "./components/Hero"
 import Header from "./components/Header"
 import Section from "./components/Section"
 // import Testimonial from "./components/Testimonial"
-// import ContactUs from "./components/ContactUs"
+import ContactUs from "./components/ContactUs"
 // import Footer from "./components/Footer"
 import AboutUs from "./components/AboutUs"
 import Dataset from "./components/Dataset"
@@ -32,9 +32,7 @@ function App() {
       <AboutUs />
       <Dataset />
       <Info />
-      {/* <Testimonial />
       <ContactUs />
-      <Footer /> */}
       </ThemeProvider>
     </>
 

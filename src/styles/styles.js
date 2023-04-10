@@ -363,6 +363,24 @@ const styles = (theme) => {
       height: "300px",
       left: "856px",
       top: "7px",
+    },
+    Con1:{
+      position: "relative",
+      width: "1440px",
+      height: "527.66px",
+      left: "0px",
+      top: "3605px",
+    },
+    Con3:{
+      position: "absolute",
+      width: "466px",
+      height: "48px",
+    },
+    Con4:{
+      position: " relative",
+      top: "63px",
+      width: "687px",
+      height: "63px",
     }
   };
 };
